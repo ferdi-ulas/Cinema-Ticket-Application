@@ -1,4 +1,4 @@
-//Elementleri Seçmek
+
 
 const container = document.querySelector(".container");
 const selectMovie = document.querySelector("#selectMovie");

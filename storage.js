@@ -4,7 +4,7 @@ class Storagex {
     static keyFullSeats = "keyFullSeats";
     static keySelectedMovie = "keySelectedMovie";
 
-    //Listeleme
+    
     static getSelectedSeatsFromStorage() {
         let selectedSeats;
         if (localStorage.getItem(this.keySelectedSeats) === null) {
@@ -28,7 +28,7 @@ class Storagex {
     static getSelectedMovieIndexFromStorage() {
       return localStorage.getItem(this.keySelectedMovie);
     }
-    // Ekleme
+    
 
     static addSelectedSeatToStorage(indexs) {
         localStorage.setItem(this.keySelectedSeats, JSON.stringify(indexs));
