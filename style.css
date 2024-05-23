@@ -46,7 +46,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Koltuk Statüleri BAŞLANGIÇ */
+
 
 .seatStatusMain {
   margin-top: 20px;
@@ -71,9 +71,6 @@ body {
   margin-right: 10px;
 }
 
-/* Koltuk Statüleri BİTİŞ */
-
-/* Sonuç Metni */
 .resultTextMain {
   margin-top: 10px;
 }
@@ -87,9 +84,6 @@ body {
   color: rgb(231, 231, 78);
 }
 
-/* Sonuç Metni */
-
-/* Butonlar Başlangıç */
 
 .buttonMain {
   margin-top: 10px;
@@ -117,9 +111,7 @@ body {
   color: #fff;
 }
 
-/* Butonlar Bitiş */
 
-/* SAHNE */
 
 .screen {
   background-color: lightgrey;
@@ -142,9 +134,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* SAHNE */
 
-/* KOLTUK RENKLERİ */
+
+
 
 .empty {
   color: lightgrey;
@@ -158,51 +150,10 @@ body {
   color: rgb(233, 68, 68);
 }
 
-/* KOLTUK RENKLERİ */
 
-/* Responsive Tasarım */
 
-/* Küçük ekranlar için koltukları ve düğmeleri ayarla */
-@media screen and (max-width: 768px) {
-    .row {
-      flex-wrap: wrap;
-    }
-    .seat {
-      flex-basis: calc(33.33% - 10px);
-      margin-bottom: 10px;
-    }
-    .buttonMain {
-      display: flex;
-      justify-content: space-between;
-    }
-    .buttonMain button {
-      flex-basis: 48%;
-    }
-  }
   
  
-@media screen and (max-width: 600px) {
 
-    body{
-        background-repeat: revert;
-        background-size: cover;
-        background-position: center;
-    }
-  
-   .seatMain{
-   display: flex;
-   flex-direction: row;
-   padding: 25px;
-   margin-top: 158;;
-   }
-   .title{
-    margin-top: 160px;
-    font-size: x-large;
-   }
-   .screen{
-    padding: 20px;
-   }
-  }
-  
   
   
